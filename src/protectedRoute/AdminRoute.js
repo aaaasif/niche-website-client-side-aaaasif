@@ -16,7 +16,7 @@ function AdminRoute(props) {
         console.log(user);
         setLoading(false);
       });
-  }, [email]);
+  }, [email, user]);
   if (loading) {
     return (
       <div className="text-center my-5 private-spinner py-5">
