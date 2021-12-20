@@ -25,7 +25,7 @@ const AddProduct = () => {
       confirmButtonText: "Yes",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch("https://rocky-cliffs-16368.herokuapp.com/addProduct", {
+        fetch("http://localhost:5000/addProduct", {
           method: "POST",
           headers: { "content-type": "application/json" },
           body: JSON.stringify(data),

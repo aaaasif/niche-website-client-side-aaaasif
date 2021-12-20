@@ -21,7 +21,7 @@ const Dashboard = () => {
   const [user, setUser] = useState({});
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    fetch(`https://rocky-cliffs-16368.herokuapp.com/admin/${email}`)
+    fetch(`http://localhost:5000/admin/${email}`)
       .then((res) => res.json())
       .then((data) => {
         setUser(data);

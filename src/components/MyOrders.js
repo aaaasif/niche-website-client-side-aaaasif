@@ -10,7 +10,7 @@ const Orders = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`https://rocky-cliffs-16368.herokuapp.com/orders?email=${email}`)
+    fetch(`http://localhost:5000/orders?email=${email}`)
       .then((res) => res.json())
       .then((data) => {
         setOrders(data);
@@ -27,7 +27,7 @@ const Orders = () => {
       confirmButtonText: "Yes",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`https://rocky-cliffs-16368.herokuapp.com/placeorder/${id}`, {
+        fetch(`http://localhost:5000/placeorder/${id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())
