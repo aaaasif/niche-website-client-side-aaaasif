@@ -3,14 +3,13 @@ import "./../assets/css/header.css";
 import { Container, Nav, Navbar, Spinner } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 import useContexts from "../hooks/useContexts.js";
-import logo from "./../assets/images/logo.png";
 const Header = () => {
   const { email, logout, loading } = useContexts();
   return (
     <Navbar className="navBar" variant="dark" expand="lg">
       <Container>
         <Navbar.Brand as={Link} to="/">
-          <img width="150px" src={logo} alt="" />
+          <img width="120px" src="https://i.ibb.co/vsxmmvr/cover.png" alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

@@ -1,25 +1,21 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import "./../assets/css/slider.css";
-import Slider1 from "./../assets/images/slider/1.jpg";
-import Slider2 from "./../assets/images/slider/2.jpg";
-import Slider3 from "./../assets/images/slider/3.jpg";
-import Slider4 from "./../assets/images/slider/4.jpg";
 const Slider = () => {
   return (
     <div>
       <Carousel>
         <Carousel.Item interval={3000}>
-          <img className="d-block w-100" src={Slider1} alt="Slider Img" />
+          <img className="d-block w-100 " src="https://i.ibb.co/VQsFVdy/william-daigneault-ye6-Skc38-IHs-unsplash.jpg" alt="Slider Img" />
         </Carousel.Item>
         <Carousel.Item interval={3000}>
-          <img className="d-block w-100" src={Slider2} alt="Second slide" />
+          <img className="d-block w-100 " src="https://i.ibb.co/09GZHkC/william-bayreuther-OChqotw-BQNM-unsplash.jpg" alt="Second slide" />
         </Carousel.Item>
         <Carousel.Item interval={3000}>
-          <img className="d-block w-100" src={Slider3} alt="Third slide" />
+          <img className="d-block w-100 " src="https://i.ibb.co/tBxwQQG/nicolas-luna-p-MFNnn-ODr-KA-unsplash.jpg" alt="Third slide" />
         </Carousel.Item>
         <Carousel.Item interval={3000}>
-          <img className="d-block w-100" src={Slider4} alt="Third slide" />
+          <img className="d-block w-100 " src="https://i.ibb.co/7SPyvZW/christian-langenhan-y-K2-DTRl-b-Q-unsplash.jpg" alt="Third slide" />
         </Carousel.Item>
       </Carousel>
     </div>

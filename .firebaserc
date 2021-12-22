@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "assignment-012"
-  }
+    "default": "dronecraft-d5d8a",
+    "client": "dronecraft-d5d8a"
+  },
+  "targets": {}
 }
