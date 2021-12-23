@@ -5,10 +5,6 @@ import Product from "../components/Product.js";
 import Slider from "../components/Slider.js";
 import useProducts from "../hooks/useProducts.js";
 import "./../assets/css/home.css";
-import collection1 from "./../assets/images/collection/1.jpg";
-import collection2 from "./../assets/images/collection/2.jpg";
-import collection3 from "./../assets/images/collection/3.jpg";
-import collection4 from "./../assets/images/collection/4.jpg";
 import Bounce from "react-reveal/Bounce";
 import Testimonials from "../components/Testimonials.js";
 const Home = () => {
@@ -18,48 +14,34 @@ const Home = () => {
       <Slider />
       <Container className="collections my-5 mx-auto">
         <Bounce bottom cascade>
-          <h2 className="text-center feature">COLLECTION FOR</h2>
+          <h2 className="text-center feature mb-4">Latest DJI Products</h2>
         </Bounce>
-        <p
-          style={{ maxWidth: "650px" }}
-          className="text-center mb-2 mx-auto mt-3"
-        >
-          <Bounce>
-            A curated collection of comfortable shoes because your feet truly
-            deserves to be in sheer comfort!
-          </Bounce>
-        </p>
         <Row className="mx-0">
           <Col className="my-2 ms-0" xs={12} md={6} lg={3}>
             <div className="img">
-              <img className="img-fluid ms-0 ps-0" src={collection1} alt="" />
+              <img className="img-fluid ms-0 ps-0" src="https://i.ibb.co/WsxgjHq/0e61a92c-3c15-42b3-9152-8cc1087e24cc-CR0-0-1464-600-PT0-SX1464-V1.png" alt="" />
             </div>
           </Col>
           <Col className="my-2 ms-0" xs={12} md={6} lg={3}>
             <div className="img img-fluid">
-              <img className="img-fluid ms-0 ps-0" src={collection2} alt="" />
+              <img className="img-fluid ms-0 ps-0" src="https://i.ibb.co/bF7J7gh/deb96ea49797d1e6c5ef24efc633bee4.jpg" alt="" />
             </div>
           </Col>
           <Col className="my-2 ms-0" xs={12} md={6} lg={3}>
             <div className="img img-fluid">
-              <img className="img-fluid ms-0 ps-0" src={collection3} alt="" />
+              <img className="img-fluid ms-0 ps-0" src="https://i.ibb.co/zX7wBDH/maxresdefault-1.jpg" alt="" />
             </div>
           </Col>
           <Col className="my-2 ms-0" xs={12} md={6} lg={3}>
             <div className="img img-fluid">
-              <img className="img-fluid ms-0 ps-0" src={collection4} alt="" />
+              <img className="img-fluid ms-0 ps-0" src="https://i.ibb.co/gm2Bqdr/maxresdefault.jpg" alt="" />
             </div>
           </Col>
         </Row>
       </Container>
       <Container>
         <Bounce bottom cascade>
-          <h2 className="text-center feature">FEATURED PRODUCTS</h2>
-          <p style={{ maxWidth: "650px" }} className="text-center mx-auto mt-3">
-            {" "}
-            A curated collection of comfortable shoes & sandals because your
-            feet truly deserves to be in sheer comfort!
-          </p>
+          <h2 className="text-center feature">Explore DJI Products</h2>
         </Bounce>
         {!products.length ? (
           <div className="text-center my-5 private-spinner py-5">
