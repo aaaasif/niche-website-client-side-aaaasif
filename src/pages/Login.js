@@ -2,7 +2,6 @@ import React from "react";
 import "./../assets/css/login.css";
 import { useForm } from "react-hook-form";
 import { Link, useHistory, useLocation } from "react-router-dom";
-import avatar from "./../assets/images/avater.png";
 import useContexts from "../hooks/useContexts.js";
 import { Spinner } from "react-bootstrap";
 const Login = () => {
@@ -25,7 +24,7 @@ const Login = () => {
         >
           <div className="formContainer">
             <div className="text-center">
-              <img width="120px" src={avatar} alt="" />
+              <img width="120px" src="https://i.ibb.co/c6MqZ10/Pngtree-user-login-or-authenticate-icon-5089976.png" alt="" />
             </div>
             <h2 className="text-center text-white">Please Login</h2>
             <form className="loginForm" onSubmit={handleSubmit(onSubmit)}>

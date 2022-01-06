@@ -9,17 +9,17 @@ const Product = ({ product }) => {
   return (
     <Col className="my-3 text-center" sm={12} md={6} lg={4}>
       <Zoom>
-        <Card style={{ height: "400px" }} className="mx-1  shadow">
+        <Card style={{ height: "400px", margintop: "10px" }} className="mx-1  shadow">
           <div className="text-center">
             <Card.Img
-              style={{ width: "150px", height: "150px" }}
+              style={{ width: "346px", height: "150px" }}
               variant="top"
               src={img}
             />
           </div>
           <Card.Body>
             <Card.Title className="text-uppercase">{title}</Card.Title>
-            <Card.Title>Price: {price}.00TK</Card.Title>
+            <Card.Title>Price: {price}.00</Card.Title>
             <Card.Text>{desc}</Card.Text>
             <Card.Text>
               Rating:{" "}
