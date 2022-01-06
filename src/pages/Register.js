@@ -24,7 +24,7 @@ const Register = () => {
         >
           <div className="formContainer">
             <div className="text-center">
-              <img width="120px" src={avatar} alt="" />
+              <img width="120px" src="https://i.ibb.co/c6MqZ10/Pngtree-user-login-or-authenticate-icon-5089976.png" alt="" />
             </div>
             <h2 className="text-center text-white">Please Register</h2>
             <form className="registerForm" onSubmit={handleSubmit(onSubmit)}>
