@@ -1,10 +1,9 @@
-# Project: Bata Shop
+# Project: drone-craft
 
-Description: Bata Corporation is a Czech multinational footwear and fashion accessory manufacturer and retailer, founded in the town of Zlín, today in the Czech Republic. After World War II, its factories in socialist states were nationalized, while its branches in capitalist states remained family-owned
 
 #
 
-Live Site Link: https://assignment-012.web.app/
+Live Site Link: https://dronecraft-d5d8a.firebaseapp.com/
 
 Technology we use to build this project:
 
