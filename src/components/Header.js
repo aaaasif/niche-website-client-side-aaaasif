@@ -4,7 +4,7 @@ import { Container, Nav, Navbar, Spinner } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 import useContexts from "../hooks/useContexts.js";
 const Header = () => {
-  const { email, logout, loading } = useContexts();
+  const { email, logout, loading} = useContexts();
   return (
     <Navbar className="navBar" variant="dark" expand="lg">
       <Container>
